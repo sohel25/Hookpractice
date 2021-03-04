@@ -1,7 +1,8 @@
-import Custom from './Custom';
 import React from 'react';
+import Custom from './Custom';
+
 function CustomHook(){
-    const data = Custom;
+    const data = Custom();
     return (
         <>
         <h1>=============  Click button to + 2  using Custom Hook===============</h1>
